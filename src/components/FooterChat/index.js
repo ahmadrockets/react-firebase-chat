@@ -5,7 +5,6 @@ import Grid from '@material-ui/core/Grid';
 import SendIcon from '@material-ui/icons/Send';
 import TextField from '@material-ui/core/TextField';
 import firebase from './../../helpers/Firebase';
-import { useCollectionData } from 'react-firebase-hooks/firestore';
 
 
 const useStyles = makeStyles((theme) => ({
